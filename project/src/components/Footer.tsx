@@ -12,7 +12,7 @@ const Footer = () => {
               <li>
                 <a href="mailto:your.email@example.com" className="flex items-center hover:text-gray-300">
                   <Mail className="w-5 h-5 mr-2" />
-                  vasundharasr.331@gmail.com
+                  abc@gmail.com
                 </a>
               </li>
               <li>
@@ -42,13 +42,12 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Let's Connect</h3>
             <p className="text-gray-400">
-              I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+              I'm always open to discussing new projects, creative ideas, or opportunities.
             </p>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>© {new Date().getFullYear()} Vasundhara S R. All rights reserved.</p>
         </div>
       </div>
     </footer>
