@@ -28,7 +28,6 @@ const Resume = () => {
                   <li>Delegates roles and ensures accountability.</li>
                   <li>Sets the vision and goals for the year.</li>
                 </ul>
-              </div>
             </div>
           
             <div className="space-y-6">
