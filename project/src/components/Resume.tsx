@@ -19,11 +19,22 @@ const Resume = () => {
               <Briefcase className="w-6 h-6 text-indigo-600 mr-2" />
               <h3 className="text-2xl font-semibold text-gray-900">Experience</h3>
             </div>
-            
+
+            <div className="bg-white p-6 rounded-lg shadow-md">
+                <h4 className="text-lg font-semibold text-gray-900">Chief Executive Officer at Catalyst, Mar Baselios IEDC</h4>
+                <p className="text-gray-600">Professional Society • 2025 - Present</p>
+                <ul className="mt-2 list-disc list-inside text-gray-600">
+                  <li>Supervises the planning and execution of workshops, talks, fests, and competitions.</li>
+                  <li>Delegates roles and ensures accountability.</li>
+                  <li>Sets the vision and goals for the year.</li>
+                </ul>
+              </div>
+            </div>
+          
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h4 className="text-lg font-semibold text-gray-900">Marketing Co-Lead at Catalyst, Mar Baselios IEDC</h4>
-                <p className="text-gray-600">Professional Society • 2023 - Present</p>
+                <p className="text-gray-600">Professional Society • 2023 - 2025</p>
                 <ul className="mt-2 list-disc list-inside text-gray-600">
                   <li>Helped deliver necessary content and write-ups for social media posts </li>
                   <li>Contributed to the team's flagship event, comprising of 100+ participants</li>
@@ -32,7 +43,7 @@ const Resume = () => {
 
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h4 className="text-lg font-semibold text-gray-900">Co-Lead of Creative Wing at CSI SB MBCET</h4>
-                <p className="text-gray-600">Professional Society • 2024 - Present</p>
+                <p className="text-gray-600">Professional Society • 2024 - 2025</p>
                 <ul className="mt-2 list-disc list-inside text-gray-600">
                   <li>Co-ordinated the team to create unique works for the societie's social media handles</li>
                   <li>Collaborated with the other sectors with the scoiety to successfully execute both online and offline events</li>
@@ -65,22 +76,29 @@ const Resume = () => {
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md">
+               <div className="grid grid-cols-2 gap-4">
+                <div>
+                  <h4 className="font-semibold text-gray-900">Coding</h4>
+                  <ul className="mt-2 space-y-1 text-gray-600">
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>C and C++</li>
+                  </ul>
+                </div>
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <h4 className="font-semibold text-gray-900">Frontend</h4>
                   <ul className="mt-2 space-y-1 text-gray-600">
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>React</li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Backend</h4>
                   <ul className="mt-2 space-y-1 text-gray-600">
-                    <li>Java</li>
-                    <li>Python</li>
+                    <li>Node.js</li>
+                    <li>MongoDB</li>
                     <li>FastAPI</li>
-                    <li>C and C++</li>
                   </ul>
                 </div>
               </div>
